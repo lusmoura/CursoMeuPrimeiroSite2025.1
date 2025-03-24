@@ -6,6 +6,7 @@ print(f"Conteúdo: {conteudo}")
 
 # a. Extra: Imprimir na tela o tamanho do conteúdo do post.
 tamanho_conteudo = len(conteudo)
+# Dá para usar o len ^ para pegar o tamanhao de uma string
 print(f"Tamanho do conteúdo: {tamanho_conteudo}")
 
 # b. Extra: Definir um tamanho máximo para o conteúdo do post e imprimir na tela o quanto falta para atingir o limite.
