@@ -25,3 +25,16 @@ numero = 0
 while numero < 10:
     print(numero)
     numero += 1
+
+# chamada de atendimento
+opcao = int(input("Digite uma opcao: "))
+
+while opcao != 0:
+    if opcao == 1:
+        print("Voce quer falar com um atendente")
+    elif opcao == 2:
+        print("Voce quer resolver um problema")
+    else:
+        print("Essa opcao é invalida")
+    
+    opcao = int(input("Digite uma opcao: "))

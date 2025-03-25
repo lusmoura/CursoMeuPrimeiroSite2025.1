@@ -1,4 +1,4 @@
-# 1. Limitar o conteúdo do post a um número de caracteres. Imprimir apenas o que cabe no limite.
+# a. Extra: Limitar o conteúdo do post a um número de caracteres. Imprimir apenas o que cabe no limite.
 limite_caracteres = 280
 titulo = input("Digite o título do post: ")
 conteudo = input("Digite o conteúdo do post: ")
@@ -10,7 +10,7 @@ else:
     print(conteudo)
 
 
-# 2. Ler um número que representa uma quantidade de posts e em seguida ler cada um dos posts.
+# b. Extra: Ler um número que representa uma quantidade de posts e em seguida ler cada um dos posts.
 numero_posts = int(input("Digite a quantidade de posts: "))
 posts = []
 for _ in range(numero_posts):
